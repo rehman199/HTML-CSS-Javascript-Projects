@@ -1,0 +1,77 @@
+#colorgamebody{
+	margin: 0 auto;
+	background-color: #2f2f2f;
+}
+h1{
+	text-align: center;
+	font-weight:400;
+	margin-top:0;
+	margin-bottom: 0;
+}
+#h1-span{
+	font-size: 75px;
+	font-weight:800;
+	font-style: italic;
+}
+#btn-1{
+	margin:0px ;
+	background-color: transparent;
+	color:black;
+	transition: background-color 0.5s ;
+}
+
+#btn-1:hover{
+	background-color: red;
+}
+#btn-1:focus{
+	box-shadow: none; 	
+}
+#navbar{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#navbar div{
+	justify-content: center;
+}
+
+input{
+	text-align: center;
+	color:black;
+	margin-left:20px;
+	border: none;
+	box-shadow: none;
+	background: lightgrey;
+	height:100%;
+}
+
+.colors-container{
+	display:flex;
+	flex-flow: row wrap;
+	align-content: space-around;
+	align-items:center;
+	flex: 0 0 100px;
+	box-sizing: content-box;
+	margin:20px auto;
+	width: 600px;
+	height:100%;
+}
+
+.colors{
+	margin: 8px 8px;
+	width:180px;
+	height:180px;
+	border-radius: 20px;
+	background-color: #3f2458;
+}
+
+@media screen and (max-width:768px){
+	.colors-container{
+		width:400px;
+	}
+}
+
+@media screen and (max-width:576px){
+	.colors-container{
+		width:200px;
+	}
+}
